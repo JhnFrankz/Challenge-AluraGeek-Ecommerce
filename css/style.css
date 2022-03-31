@@ -1,5 +1,6 @@
 :root {
     --color-azul: #2A7AE4;
+    --color-negro: #464646;
 }
 
 html {
@@ -18,8 +19,6 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--color-azul);
-    font-weight: bold;
 }
 
 /*              Utilidades              */
@@ -33,6 +32,11 @@ a {
     border: .2rem solid var(--color-azul);
     border-radius: .5rem;
     padding: 1rem 5rem;
+}
+
+.btn-1 {
+    color: #FFFFFF;
+    background: var(--color-azul);
 }
 
 /*                 Header                 */
@@ -53,11 +57,62 @@ a {
 }
 
 .header__logo-text span {
-    color: #464646;
+    color: var(--color-negro);
 }
 
+/*      Main    */
+.main {
+    background: #E5E5E5;
+}
 
-/*                                */
+/*                 Hero               */
+.hero {
+    display: flex;
+    align-items: flex-end;
+    height: 25rem;
+    background: linear-gradient(rgba(5,7,12, 0.2), rgba(5,7,12, 0.2)), url(../img/banner-image.png) center/cover no-repeat;
+}
+
+.hero__content {
+    color: #FFFFFF;
+    padding-bottom: 3rem;
+}
+
+/*                          Main                         */
+
+/*                 Product               */
+
+.products a {
+    font-weight: 700;
+    color: var(--color-azul);
+}
+
+.product__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__title {
+    font-size: 2.2rem;
+    color: var(--color-negro);
+}
+
+.product__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.product__item img {
+    width: 100%;
+}
+
+.product__precio {
+    font-weight: bold;
+}
+
+/*                 Hero               */
 
 
 
