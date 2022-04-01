@@ -315,6 +315,17 @@ img {
 }
 
 
+/*                  login.html                  */
+.login {
+    padding: 15rem 0;
+}
 
+.login .form {
+    align-items: center;
+}
 
-
+.login .form__caja {
+    display: flex;
+    justify-content: center;
+    width: min(100%, 45rem);
+}
