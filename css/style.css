@@ -72,16 +72,28 @@ ul {
         order: 4;
     }
 
-    .header__search input {
-        display: block;
-    }
-
     .header__search {
         display: flex;
         align-items: center;
         background: #F5F5F5;
         width: auto;
         height: 4rem;
+        border-radius: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    .header__search input {
+        display: block;
+        border: none;
+        background: transparent;
+    }
+
+    .header__search input:focus {
+        outline: none;
+    }
+
+    .header__search a {
+        color: #464646;
     }
 }
 
@@ -167,6 +179,12 @@ ul {
     padding: 3rem 0;
 }
 
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (min-width: 768px) {
     .contacto__sobrenosotros {
         display: flex;
@@ -174,18 +192,13 @@ ul {
     }
 
     .nosotros {
-        flex-basis: 40%;        
+        flex-basis: 40%;
+        align-items: flex-start;
     }
 
     .form {
         flex-basis: 60%;
     }
-}
-
-.nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .nav {
