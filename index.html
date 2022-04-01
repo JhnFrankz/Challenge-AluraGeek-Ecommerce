@@ -48,8 +48,8 @@
             </div>
         </section>
 
-        <div class="container">
-            <section class="products">
+        <section class="products">
+            <div class="container">
                 <div class="products-group">
                     <div class="product__info">
                         <h3 class="product__title">Star Wars</h3>
@@ -160,10 +160,8 @@
                         </div>
                     </div>
                 </div>
-            </section>
-
-            
-        </div>
+            </div>
+        </section>
 
         <section class="contacto">
             <div class="container">
@@ -191,12 +189,13 @@
                     <h3 class="form__title">Hable con nosotros</h3>
 
                     <div class="form__caja">
-                        <input id="nombre" name="nombre" type="text">
-                        <label for="nombre">Nombre</label>
+                        <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" ">
+                        <label class="form__label" for="nombre">Nombre</label>
                     </div>
                     
                     <div class="form__caja">
-                        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                        <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" "></textarea>
+                        <label class="form__label" for="nombre">Escribe tu mensaje</label>
                     </div>
 
                     <div class="form__caja">

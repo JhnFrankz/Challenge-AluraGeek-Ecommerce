@@ -25,7 +25,6 @@ ul {
     list-style: none;
     padding: 0;
 }
-
 /*              Utilidades              */
 
 .container {
@@ -38,6 +37,12 @@ ul {
     border: .2rem solid var(--color-azul);
     border-radius: .5rem;
     padding: 1rem 5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0px 4px 16px rgba(49, 138, 172, 1);
+    transition: all 1s;
 }
 
 .btn-1 {
@@ -52,6 +57,10 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 0;
+}
+
+@media (min-width: 768px) {
+    
 }
 
 .header__logo {
@@ -88,6 +97,9 @@ ul {
 /*                          Main                         */
 
 /*                 Product               */
+.products {
+    padding: 3rem 0;
+}
 
 .products a {
     font-weight: 700;
@@ -148,12 +160,56 @@ ul {
 .nav a {
     color: var(--color-negro);
     font-weight: 500;
+}
 
+/*          Formulario          */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .form__title {
+    margin: 0;
     font-weight: bold;
 }
+
+.form__caja {
+    position: relative;
+}
+
+.form__caja .form__label {
+    color: #00000098;
+    position: absolute;
+    transform: translateY(1.5rem);
+    transition: transform 0.5s, font-weight 0.5s;
+    top: 0;
+    left: 0.5rem;
+}
+
+.form__caja .form__input {
+    font-size: 1.4rem;
+    border: none;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5rem 0.5rem;
+    width: 100%;
+    outline: none;
+}
+
+.form__input:focus + .form__label, 
+.form__input:not(:placeholder-shown) + .form__label {
+    transform: translateY(-0.1rem) scale(0.7);
+    transform-origin: left;
+    color: #0a507e;
+    font-weight: bold;
+}
+
+.form__caja textarea {
+    resize: none;
+    height: 12rem;
+}
+
 
 /*             Footer              */
 .footer {
