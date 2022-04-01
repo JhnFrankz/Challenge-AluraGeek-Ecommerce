@@ -81,7 +81,6 @@ img {
         display: flex;
         align-items: center;
         background: #F5F5F5;
-        width: auto;
         height: 4rem;
         border-radius: 1rem;
         padding: .5rem 1rem;
@@ -91,6 +90,7 @@ img {
         display: block;
         border: none;
         background: transparent;
+        width: 25rem;
     }
 
     .header__search input:focus {
@@ -99,6 +99,12 @@ img {
 
     .header__search a {
         color: #464646;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header__search input {
+        width: 40rem;
     }
 }
 
