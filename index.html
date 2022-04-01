@@ -30,7 +30,8 @@
                     <a href="#" class="btn">Login</a>
                 </div>
         
-                <div class="header__item"
+                <div class="header__item header__search">
+                    <input type="text" placeholder="¿Qué deseas buscar?">
                     <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
             </div>
@@ -165,43 +166,45 @@
 
         <section class="contacto">
             <div class="container">
-                <div class="nosotros">
-                    <div class="header__item">
-                        <a href="#" class="header__logo">
-                            <img src="img/gamepad.svg" alt="Imagen de gamepad">
-                            <h1 class="header__logo-text">Alura<span>Geek</span></h1>
-                        </a>
+                <div class="contacto__sobrenosotros">
+                    <div class="nosotros">
+                        <div class="header__item">
+                            <a href="#" class="header__logo">
+                                <img src="img/gamepad.svg" alt="Imagen de gamepad">
+                                <h1 class="header__logo-text">Alura<span>Geek</span></h1>
+                            </a>
+                        </div>
+        
+                        <nav class="nav">
+                            <ul>
+                                <li><a href="#">Quienes somos</a></li>
+                                <li><a href="#">Politíca de privacidad</a></li>
+                                <li><a href="#">Programa de fidelidad</a></li>
+                                <li><a href="#">Nuestras tiendas</a></li>
+                                <li><a href="#">Quiero ser franquiciado</a></li>
+                                <li><a href="#">Anúncie aquí</a></li>
+                            </ul>
+                        </nav>
                     </div>
+        
+                    <form class="form">
+                        <h3 class="form__title">Hable con nosotros</h3>
     
-                    <nav class="nav">
-                        <ul>
-                            <li><a href="#">Quienes somos</a></li>
-                            <li><a href="#">Politíca de privacidad</a></li>
-                            <li><a href="#">Programa de fidelidad</a></li>
-                            <li><a href="#">Nuestras tiendas</a></li>
-                            <li><a href="#">Quiero ser franquiciado</a></li>
-                            <li><a href="#">Anúncie aquí</a></li>
-                        </ul>
-                    </nav>
+                        <div class="form__caja">
+                            <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" ">
+                            <label class="form__label" for="nombre">Nombre</label>
+                        </div>
+                        
+                        <div class="form__caja">
+                            <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" "></textarea>
+                            <label class="form__label" for="nombre">Escribe tu mensaje</label>
+                        </div>
+    
+                        <div class="form__caja">
+                            <button class="btn btn-1">Enviar mensaje</button>
+                        </div>
+                    </form>
                 </div>
-    
-                <form class="form">
-                    <h3 class="form__title">Hable con nosotros</h3>
-
-                    <div class="form__caja">
-                        <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" ">
-                        <label class="form__label" for="nombre">Nombre</label>
-                    </div>
-                    
-                    <div class="form__caja">
-                        <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" "></textarea>
-                        <label class="form__label" for="nombre">Escribe tu mensaje</label>
-                    </div>
-
-                    <div class="form__caja">
-                        <button class="btn btn-1">Enviar mensaje</button>
-                    </div>
-                </form>
             </div>
         </section>
     </main>
