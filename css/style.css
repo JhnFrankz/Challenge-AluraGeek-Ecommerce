@@ -336,3 +336,33 @@ img {
         width: min(100%, 45rem);
     }
 }
+
+/*          producto.html            */
+
+.product__hero {
+    padding-top: 4rem ;
+}
+
+@media (min-width: 768px) {
+    .product__description {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+    
+    .product__description__img img {
+        height: 100%;
+    }
+
+    .product__description__info h2 {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1280px) {
+    .product__description {
+        align-items: center;
+    }
+}
+
+
