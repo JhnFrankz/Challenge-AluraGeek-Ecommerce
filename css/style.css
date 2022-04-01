@@ -322,10 +322,17 @@ img {
 
 .login .form {
     align-items: center;
+    gap: 2rem;
 }
 
 .login .form__caja {
     display: flex;
     justify-content: center;
     width: min(100%, 45rem);
+}
+
+@media (min-width: 1280px) {
+    .login .form__button .btn {
+        width: min(100%, 45rem);
+    }
 }
