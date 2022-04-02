@@ -41,7 +41,33 @@
     <main class="main">
         <div class="container">
             <section class="add-product">
-                
+                <form class="form">
+                    <h2 class="form__title">Agregar nuevo producto</h2>
+
+                    <div class="form__caja">
+                        <input class="form__input" id="productoArchivo" name="productoArchivo" type="file" placeholder=" ">
+                        <label class="form__label" for="productoArchivo"></label>
+                    </div>
+
+                    <div class="form__caja">
+                        <input class="form__input" id="productoNombre" name="productoNombre" type="text" placeholder=" ">
+                        <label class="form__label" for="productoNombre">Nombre del producto</label>
+                    </div>
+
+                    <div class="form__caja">
+                        <input class="form__input" id="productoPrecio" name="productoPrecio" type="text" placeholder=" ">
+                        <label class="form__label" for="productoPrecio">Precio del producto</label>
+                    </div>
+                    
+                    <div class="form__caja">
+                        <textarea class="form__input" name="productoDescripcion" id="productoDescripcion"  placeholder=" "></textarea>
+                        <label class="form__label" for="productoDescripcion">Descripción del producto</label>
+                    </div>
+
+                    <div class="form__caja">
+                        <button class="btn btn-1">Agregar Producto</button>
+                    </div>
+                </form>
             </section>
         </div>
     </main>

@@ -387,9 +387,24 @@ img {
 
 /*           add-product.html           */
 .add-product {
+    display: flex;
     padding: 5rem 0;
+    justify-content: center;
 }
 
+.add-product .form {
+    width: max(100%, 50rem);
+
+}
+
+.add-product .form input[type="file"] {
+    border: 2px dashed #cecece ;
+    height: 20rem;
+}
+
+.add-product .form button {
+    width: 100%;
+}
 
 
 
