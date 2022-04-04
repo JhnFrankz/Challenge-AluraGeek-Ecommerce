@@ -44,9 +44,17 @@
                 <form class="form">
                     <h2 class="form__title">Agregar nuevo producto</h2>
 
-                    <div class="form__caja">
-                        <input class="form__input" id="productoArchivo" name="productoArchivo" type="file" placeholder=" ">
-                        <label class="form__label" for="productoArchivo"></label>
+                    <div class="form__caja form__file">
+                        <div class="form__choose-file">
+                            <input class="form__input" id="productoArchivo" name="productoArchivo" type="file" placeholder=" ">
+                            <label class="form__label" for="productoArchivo"></label>
+                        </div>
+
+                        <p class="form__file__p">O</p>
+                        
+                        <div class="form__btn-file">
+                            <button class="btn">Busque en su dispositivo</button>
+                        </div>
                     </div>
 
                     <div class="form__caja">
@@ -65,7 +73,7 @@
                     </div>
 
                     <div class="form__caja">
-                        <button class="btn btn-1">Agregar Producto</button>
+                        <button class="btn btn-1 btn__add-product">Agregar Producto</button>
                     </div>
                 </form>
             </section>

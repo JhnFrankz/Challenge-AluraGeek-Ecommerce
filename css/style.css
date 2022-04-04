@@ -394,7 +394,6 @@ img {
 
 .add-product .form {
     width: max(100%, 50rem);
-
 }
 
 .add-product .form input[type="file"] {
@@ -402,9 +401,27 @@ img {
     height: 20rem;
 }
 
-.add-product .form button {
+.add-product .form .btn__add-product {
     width: 100%;
 }
 
+.add-product .form__file__p,
+.add-product .form__btn-file {
+    display: none;
+}
 
+@media (min-width: 768px) {
+    .add-product .form__file {
+        display: flex;
+        align-items: center;
+    }
 
+    .add-product .form__file__p {
+        display: block;
+        margin: 0 1rem;
+    }
+
+    .add-product .form__btn-file {
+        display: block;
+    }
+}
