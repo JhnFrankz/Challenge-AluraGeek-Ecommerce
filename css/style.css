@@ -407,6 +407,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3rem;
 }
 
 .form__choose-file .form__choose-file__text {
@@ -444,4 +445,14 @@ img {
     .add-product .form__btn-file {
         display: block;
     }
+    /*
+    .form__choose-file__text p {
+        visibility: hidden;
+    }
+
+    .form__choose-file__text p::before {
+        content: "Arrastre para agregar una imagen para el producto";
+        visibility: visible;
+    }
+    */
 }
