@@ -396,9 +396,29 @@ img {
     width: max(100%, 50rem);
 }
 
-.add-product .form input[type="file"] {
+.add-product .form__choose-file {
+    position: relative;
+    background-color: #FFFFFF;
     border: 2px dashed #cecece ;
     height: 20rem;
+}
+
+.form__choose-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__choose-file .form__choose-file__text {
+    text-align: center;
+    color: var(--color-negro);
+}
+
+.add-product .form input[type="file"] {
+    opacity: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .add-product .form .btn__add-product {
