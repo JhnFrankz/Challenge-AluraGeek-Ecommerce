@@ -232,14 +232,16 @@
                     <form action="#" class="form form__about-us">
                         <h3 class="form__title">Hable con nosotros</h3>
     
-                        <div class="form__caja">
+                        <div class="form__caja" id="grupo__nombre">
                             <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" " data-type="name">
                             <label class="form__label" for="nombre">Nombre</label>
+                            <p class="form__input-error">Este campo no debe estar vacío y debe contener máximo 50 carácteres.</p>
                         </div>
                         
-                        <div class="form__caja">
+                        <div class="form__caja" id="grupo__mensaje">
                             <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" " data-type="message"></textarea>
                             <label class="form__label" for="nombre">Escribe tu mensaje</label>
+                            <p class="form__input-error">Este campo no debe estar vacío y puede contener máximo 300 carácteres.</p>
                         </div>
     
                         <div class="form__caja">
@@ -260,7 +262,8 @@
         </div>
     </footer>
 
-    <script type="module" src="js/index.js"></script>
+    <!--<script type="module" src="js/index.js"></script>-->
+    <script src="js/validations.js"></script>
 </body>
 
 </html>

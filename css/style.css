@@ -301,6 +301,39 @@ img {
     height: 12rem;
 }
 
+/* validacion*/
+
+
+.form__input-error {
+    display: none;
+    margin: 0;
+    font-size: 1.4rem;
+    color: #e40404;
+}
+
+.form__input-error-activo {
+    display: block;
+}
+/*          Javascript          */
+
+.form__caja-correcto .form__input {
+    border: .2rem solid #0ba73a;
+    border-radius: 0.5rem;
+}
+
+.form__caja-incorrecto .form__input {
+    border: .2rem solid #e40404;
+    border-radius: 0.5rem;
+}
+
+.form__caja-incorrecto .form__input-error {
+    display: block;
+}
+
+.btn:disabled {
+    opacity: 20%;
+    cursor: default;
+}
 
 /*             Footer              */
 .footer {
