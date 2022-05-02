@@ -15,7 +15,8 @@ const btnAboutUs = document.querySelector("")
     Botón Enviar mensaje: envía el mensaje si el formulario está correctamente cumplimentado.
 */
 
-import { validate } from "./validations.js";
+/*
+import { validate } from "./validacionContacto.js";
 
 const inputs = document.querySelectorAll(".form__about-us .form__input");
 
@@ -25,3 +26,4 @@ inputs.forEach(input => {
     });
 });
 
+*/

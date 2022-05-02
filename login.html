@@ -42,17 +42,19 @@
 
         <section class="login">
             <div class="container">
-                <form class="form">
+                <form class="form form__login">
                     <h3 class="form__title">Iniciar Sesión</h3>
 
-                    <div class="form__caja">
-                        <input class="form__input" id="correo" name="correo" type="email" placeholder=" ">
+                    <div class="form__caja" id="grupo__correo">
+                        <input class="form__input" id="correo" name="correo" type="email" placeholder=" " autocomplete="email">
                         <label class="form__label" for="correo">Escriba su correo electrónico</label>
+                        <p class="form__input-error">Este campo no debe estar vacío y debe contener una email válido.</p>
                     </div>
                     
-                    <div class="form__caja">
-                        <input class="form__input" id="contrasenia" name="contrasenia" type="text" placeholder=" ">
+                    <div class="form__caja" id="grupo__contrasenia">
+                        <input class="form__input" id="contrasenia" name="contrasenia" type="password" placeholder=" " autocomplete="current-password">
                         <label class="form__label" for="contrasenia">Escriba su contraseña</label>
+                        <p class="form__input-error">Este campo no debe estar vacío</p>
                     </div>
 
                     <div class="form__caja form__button">
@@ -118,7 +120,8 @@
         </div>
     </footer>
 
-    <script src="js/validations.js"></script>
+    <script src="js/validacionContacto.js"></script>
+    <script src="js/validacionLogin.js"></script>
 </body>
 
 </html>

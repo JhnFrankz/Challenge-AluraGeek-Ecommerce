@@ -41,7 +41,7 @@
     <main class="main">
         <div class="container">
             <section class="add-product">
-                <form class="form">
+                <form class="form form__add-product">
                     <h2 class="form__title">Agregar nuevo producto</h2>
 
                     <div class="form__caja form__file">
@@ -56,23 +56,26 @@
                         <p class="form__file__p">O</p>
 
                         <div class="form__btn-file">
-                            <button class="btn">Busque en su dispositivo</button>
+                            <a class="btn">Busque en su dispositivo</a>
                         </div>
                     </div>
 
-                    <div class="form__caja">
+                    <div class="form__caja" id="grupo__nombre">
                         <input class="form__input" id="productoNombre" name="productoNombre" type="text" placeholder=" ">
                         <label class="form__label" for="productoNombre">Nombre del producto</label>
+                        <p class="form__input-error">Este campo no debe estar vacío y debe contener máximo 50 carácteres.</p>
                     </div>
 
-                    <div class="form__caja">
-                        <input class="form__input" id="productoPrecio" name="productoPrecio" type="text" placeholder=" ">
+                    <div class="form__caja" id="grupo__precio">
+                        <input class="form__input" id="productoPrecio" name="productoPrecio" type="number" placeholder=" ">
                         <label class="form__label" for="productoPrecio">Precio del producto</label>
+                        <p class="form__input-error">Este campo no debe estar vacío</p>
                     </div>
                     
-                    <div class="form__caja">
+                    <div class="form__caja" id="grupo__descripcion">
                         <textarea class="form__input" name="productoDescripcion" id="productoDescripcion"  placeholder=" "></textarea>
                         <label class="form__label" for="productoDescripcion">Descripción del producto</label>
+                        <p class="form__input-error">Este campo no debe estar vacío y puede contener máximo 300 carácteres.</p>
                     </div>
 
                     <div class="form__caja">
@@ -139,7 +142,8 @@
         </div>
     </footer>
 
-    <script src="js/validations.js"></script>
+    <script src="js/validacionAgregarProducto.js"></script>
+    <script src="js/validacionContacto.js"></script>
 </body>
 
 </html>
