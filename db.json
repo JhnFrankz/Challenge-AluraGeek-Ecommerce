@@ -1,10 +1,23 @@
 {
     "producto": [
         {
-            "nombre": "Leche",
+            "nombre": "Producto 1",
             "precio": 50.00,
-            "descripcion": "Este producto es para alimentarse",
+            "descripcion": "Este es el producto número 1",
             "id": 1
+        },
+        {
+            "nombre": "Producto 2",
+            "precio": 60.00,
+            "descripcion": "Este es el producto número 2",
+            "id": 2
+        },
+        {
+            "nombre": "Producto 3",
+            "precio": 56.00,
+            "descripcion": "Este es el producto número 3",
+            "id": 3
         }
+
     ]
 }
