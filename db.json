@@ -1,0 +1,10 @@
+{
+    "producto": [
+        {
+            "nombre": "Leche",
+            "precio": 50.00,
+            "descripcion": "Este producto es para alimentarse",
+            "id": 1
+        }
+    ]
+}
