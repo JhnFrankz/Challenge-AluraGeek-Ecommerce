@@ -18,7 +18,6 @@ const expressions = {
 {
 	const formulario = document.querySelector(".form__about-us");
 	const inputs = document.querySelectorAll(".form__about-us .form__input");
-	console.log(inputs);
 	const botonEnviarAboutUs = document.querySelector(".form__about-us button");
 	botonEnviarAboutUs.disabled = true;
 

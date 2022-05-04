@@ -1,23 +1,52 @@
 {
-    "producto": [
-        {
-            "nombre": "Producto 1",
-            "precio": 50.00,
-            "descripcion": "Este es el producto número 1",
-            "id": 1
-        },
-        {
-            "nombre": "Producto 2",
-            "precio": 60.00,
-            "descripcion": "Este es el producto número 2",
-            "id": 2
-        },
-        {
-            "nombre": "Producto 3",
-            "precio": 56.00,
-            "descripcion": "Este es el producto número 3",
-            "id": 3
-        }
-
-    ]
+  "producto": [
+    {
+      "nombre": "Producto 1",
+      "precio": 50,
+      "descripcion": "Este es el producto número 1",
+      "id": 1
+    },
+    {
+      "nombre": "Producto 2",
+      "precio": 60,
+      "descripcion": "Este es el producto número 2",
+      "id": 2
+    },
+    {
+      "nombre": "Producto 3",
+      "precio": 56,
+      "descripcion": "Este es el producto número 3",
+      "id": 3
+    },
+    {
+      "nombre": "aaaaaaaaaa",
+      "precio": "12.22",
+      "descripcion": "aaaaaaaaaaaa",
+      "id": "ae90b57d-539c-400f-a7f0-02cbb306131c"
+    },
+    {
+      "nombre": "eeeeeeeeeeee",
+      "precio": "12.32",
+      "descripcion": "dddddddddddddddd",
+      "id": "2032a24d-5ba3-4c47-975d-7481ea545111"
+    },
+    {
+      "nombre": "bbbbbbbbbbbb",
+      "precio": "21.21",
+      "descripcion": "bbbbbbbbbbbbbb",
+      "id": "73ca2403-c4ae-4343-8b11-29b098d50ccb"
+    },
+    {
+      "nombre": "fffffffffffffffff",
+      "precio": "4.45",
+      "descripcion": "fffffffffffffffff",
+      "id": "0e9087db-f4b0-4e87-a8a6-95e944acba7f"
+    },
+    {
+      "nombre": "nnnnnnnnn",
+      "precio": "45.456",
+      "descripcion": "nnnnnnnnnnnnnn",
+      "id": "53cf1cb7-bf48-4a48-b156-a74b3cbdf04a"
+    }
+  ]
 }

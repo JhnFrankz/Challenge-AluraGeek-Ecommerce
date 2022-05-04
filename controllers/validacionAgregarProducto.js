@@ -2,7 +2,6 @@
 {
 	const formulario = document.querySelector(".form__add-product");
 	const inputs = document.querySelectorAll(".form__add-product .form__input");
-	console.log(inputs)
 	const botonAgregarProducto = document.querySelector(".form__add-product button");
 	botonAgregarProducto.disabled = true;
 
@@ -58,18 +57,5 @@
 		} else {
 			botonAgregarProducto.disabled = true;
 		}
-	}
-
-	botonAgregarProducto.addEventListener("click", enviarFormulario);
-
-	function enviarFormulario(event) {
-		event.preventDefault();
-
-		inputs.forEach(input => {
-			input.value = "";
-			input.parentElement.classList.remove("form__caja-correcto");
-		});
-
-		botonAgregarProducto.disabled = true;
 	}
 }
