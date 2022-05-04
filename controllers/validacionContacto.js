@@ -18,6 +18,7 @@ const expressions = {
 {
 	const formulario = document.querySelector(".form__about-us");
 	const inputs = document.querySelectorAll(".form__about-us .form__input");
+	console.log(inputs);
 	const botonEnviarAboutUs = document.querySelector(".form__about-us button");
 	botonEnviarAboutUs.disabled = true;
 
@@ -46,14 +47,14 @@ const expressions = {
 
 	const validarCampo = (expresion, input, campo) => {
 		if(expresion.test(input.value)){
-			document.getElementById(`grupo__${campo}`).classList.remove("form__caja-incorrecto");
-			document.getElementById(`grupo__${campo}`).classList.add("form__caja-correcto");
-			document.querySelector(`#grupo__${campo} .form__input-error`).classList.remove(".form__input-error-activo");
+			document.querySelector(`.form__about-us #grupo__${campo}`).classList.remove("form__caja-incorrecto");
+			document.querySelector(`.form__about-us #grupo__${campo}`).classList.add("form__caja-correcto");
+			document.querySelector(`.form__about-us #grupo__${campo} .form__input-error`).classList.remove(".form__input-error-activo");
 			campos[campo] = true;
 		} else {
-			document.getElementById(`grupo__${campo}`).classList.add("form__caja-incorrecto");
-			document.getElementById(`grupo__${campo}`).classList.remove("form__caja-correcto");
-			document.querySelector(`#grupo__${campo} .form__input-error`).classList.add(".form__input-error-activo");
+			document.querySelector(`.form__about-us #grupo__${campo}`).classList.add("form__caja-incorrecto");
+			document.querySelector(`.form__about-us #grupo__${campo}`).classList.remove("form__caja-correcto");
+			document.querySelector(`.form__about-us #grupo__${campo} .form__input-error`).classList.add(".form__input-error-activo");
 			campos[campo] = false;
 		}
 	}

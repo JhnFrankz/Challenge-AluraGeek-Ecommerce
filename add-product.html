@@ -41,12 +41,12 @@
     <main class="main">
         <div class="container">
             <section class="add-product">
-                <form class="form form__add-product">
+                <form class="form form__add-product" data-form>
                     <h2 class="form__title">Agregar nuevo producto</h2>
 
                     <div class="form__caja form__file">
                         <div class="form__choose-file">
-                            <input class="form__input" id="productoArchivo" name="productoArchivo" type="file" placeholder=" ">
+                            <input class="form__input" name="imagen" type="file" placeholder=" " data-form-img>
                             <div class="form__choose-file__text">
                                 <i class="fa-solid fa-plus"></i>
                                 <p>Agregar una imagen para el producto</p>
@@ -61,25 +61,25 @@
                     </div>
 
                     <div class="form__caja" id="grupo__nombre">
-                        <input class="form__input" id="productoNombre" name="productoNombre" type="text" placeholder=" ">
-                        <label class="form__label" for="productoNombre">Nombre del producto</label>
+                        <input class="form__input" name="nombre" type="text" placeholder=" " data-form-nombre>
+                        <label class="form__label" for="nombre">Nombre del producto</label>
                         <p class="form__input-error">Este campo no debe estar vacío y debe contener máximo 50 carácteres.</p>
                     </div>
 
                     <div class="form__caja" id="grupo__precio">
-                        <input class="form__input" id="productoPrecio" name="productoPrecio" type="number" placeholder=" ">
-                        <label class="form__label" for="productoPrecio">Precio del producto</label>
+                        <input class="form__input" name="precio" type="number" placeholder=" " data-form-precio>
+                        <label class="form__label" for="precio">Precio del producto</label>
                         <p class="form__input-error">Este campo no debe estar vacío</p>
                     </div>
                     
                     <div class="form__caja" id="grupo__descripcion">
-                        <textarea class="form__input" name="productoDescripcion" id="productoDescripcion"  placeholder=" "></textarea>
-                        <label class="form__label" for="productoDescripcion">Descripción del producto</label>
+                        <textarea class="form__input" name="descripcion" placeholder=" " data-form-descripcion></textarea>
+                        <label class="form__label" for="descripcion">Descripción del producto</label>
                         <p class="form__input-error">Este campo no debe estar vacío y puede contener máximo 300 carácteres.</p>
                     </div>
 
                     <div class="form__caja">
-                        <button class="btn btn-1 btn__add-product">Agregar Producto</button>
+                        <button type="submit" class="btn btn-1 btn__add-product">Agregar Producto</button>
                     </div>
                 </form>
             </section>
@@ -110,18 +110,18 @@
                     </nav>
                 </div>
     
-                <form action="#" class="form form__about-us">
+                <form class="form form__about-us">
                     <h3 class="form__title">Hable con nosotros</h3>
 
                     <div class="form__caja" id="grupo__nombre">
-                        <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" " data-type="name">
+                        <input class="form__input" id="nombreContacto" name="nombre" type="text" placeholder=" ">
                         <label class="form__label" for="nombre">Nombre</label>
                         <p class="form__input-error">Este campo no debe estar vacío y debe contener máximo 50 carácteres.</p>
                     </div>
                     
                     <div class="form__caja" id="grupo__mensaje">
-                        <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" " data-type="message"></textarea>
-                        <label class="form__label" for="nombre">Escribe tu mensaje</label>
+                        <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" "></textarea>
+                        <label class="form__label" for="mensaje">Escribe tu mensaje</label>
                         <p class="form__input-error">Este campo no debe estar vacío y puede contener máximo 300 carácteres.</p>
                     </div>
 
@@ -142,6 +142,7 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
     <script src="controllers/validacionAgregarProducto.js"></script>
     <script src="controllers/validacionContacto.js"></script>
 </body>
