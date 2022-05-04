@@ -489,3 +489,49 @@ img {
     }
     */
 }
+
+
+/*        products-list.html - Administrador de productos          */
+
+.products-list {
+    padding: 5rem 0;
+}
+
+.products-list__table {
+    width: 100%;
+}
+
+
+.products-list__table thead {
+    background-color: var(--color-azul);
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.products-list__table th {
+    padding: 1rem 1rem;
+}
+
+.products-list__table tbody {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.products-list__table .btn-editar {
+    color: #0ba73a;
+    padding: 0.5rem 1rem;
+}
+
+.products-list__table .btn-eliminar {
+    background: none;
+    border: none;
+    color: #e40404  ;
+    padding: 0.5rem 1rem;
+}
+
+.products-list .table__button-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}

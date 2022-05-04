@@ -3,7 +3,8 @@ const listaProductos = () => {
     return fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
 };
 
-const crearCliente = (nombre, precio, descripcion) => {
+/*          para add-products.html */
+const crearProducto = (nombre, precio, descripcion) => {
     return fetch("http://localhost:3000/producto", {
         method: "POST",
         headers: {
@@ -18,8 +19,12 @@ const crearCliente = (nombre, precio, descripcion) => {
     });
 };
 
+/*      Para el CRUD        */
+
+
+
 
 export const productServices = {
     listaProductos,
-    crearCliente
+    crearProducto
 };

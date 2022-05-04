@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/3943885706.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Login</title>
+    <title>Administrador de Productos</title>
 </head>
 
 <body>
@@ -40,27 +40,28 @@
     
     <main class="main">
 
-        <section class="login">
+        <section class="crud">
             <div class="container">
-                <form class="form form__login" data-form>
-                    <h3 class="form__title">Iniciar Sesión</h3>
-
-                    <div class="form__caja" id="grupo__correo">
-                        <input class="form__input" id="correo" name="correo" type="email" placeholder=" " autocomplete="email" data-form-correo>
-                        <label class="form__label" for="correo">Escriba su correo electrónico</label>
-                        <p class="form__input-error">Este campo no debe estar vacío y debe contener una email válido.</p>
+                <div class="products-list">
+                    <div class="product__info">
+                        <h3 class="product__title">Administrador de productos</h3>
+                        <div class="product__add">
+                            <a href="add-product.html" class="btn btn-1">Agregar producto</a>
+                        </div>
                     </div>
-                    
-                    <div class="form__caja" id="grupo__contrasenia">
-                        <input class="form__input" id="contrasenia" name="contrasenia" type="password" placeholder=" " autocomplete="current-password" data-form-contrasenia>
-                        <label class="form__label" for="contrasenia">Escriba su contraseña</label>
-                        <p class="form__input-error">Este campo no debe estar vacío</p>
-                    </div>
-
-                    <div class="form__caja form__button">
-                        <button class="btn btn-1" type="submit">Entrar</button>
-                    </div>
-                </form>
+    
+                    <table class="products-list__table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Descripcion</th>
+                                <th>Opciones</th>
+                            </tr>
+                        </thead>
+                        <tbody data-table></tbody>
+                    </table>
+                </div>
             </div>
         </section>
 
@@ -120,9 +121,8 @@
         </div>
     </footer>
 
-    <script type="module" src="controllers/login-controller.js"></script>
     <script src="controllers/validacionContacto.js"></script>
-    <script src="controllers/validacionLogin.js"></script>
+    <script type="module" src="controllers/crud-product-controller.js"></script>
 </body>
 
 </html>

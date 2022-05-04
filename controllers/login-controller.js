@@ -10,9 +10,8 @@ formulario.addEventListener("submit", (e) => {
 
     loginServices.listaUsuarios().then((data) => {
         data.forEach(({correo, contrasenia}) => {
-            console.log(correo, contrasenia);
             if (correoIn == correo && contraseniaIn == contrasenia) {
-                window.location.href = "/Challenges/Front%20End/ChallengeSem7-8-Ecommerce/all-products.html";
+                window.location = "/Challenges/Front%20End/ChallengeSem7-8-Ecommerce/products-list.html";
             }
         });
     }).catch(error => console.log("Error: " + error));

@@ -13,21 +13,21 @@
   "producto": [
     {
       "nombre": "Producto 1",
-      "precio": 50,
+      "precio": "50",
       "descripcion": "Este es el producto número 1",
-      "id": 1
+      "id": "1"
     },
     {
       "nombre": "Producto 2",
-      "precio": 60,
+      "precio": "60",
       "descripcion": "Este es el producto número 2",
-      "id": 2
+      "id": "2"
     },
     {
       "nombre": "Producto 3",
-      "precio": 56,
+      "precio": "56",
       "descripcion": "Este es el producto número 3",
-      "id": 3
+      "id": "3"
     },
     {
       "nombre": "aaaaaaaaaa",

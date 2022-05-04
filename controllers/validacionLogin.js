@@ -52,7 +52,7 @@
 			botonEnviarLogin.disabled = true;
 		}
 	}
-
+	/*
 	botonEnviarLogin.addEventListener("click", enviarFormulario);
 
 	function enviarFormulario(event) {
@@ -64,6 +64,6 @@
 		});
 
 		botonEnviarLogin.disabled = true;
-	}
+	}*/
 }
 

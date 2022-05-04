@@ -2,9 +2,9 @@ import { productServices } from "../service/product-service.js";
 
 const crearNuevoProducto = (nombre, precio, id) => {
     const contenido = `
-        <img src="img/product${id}.png" alt="Imagen producto ${nombre}">
+        <img src="img/product1.png" alt="Imagen producto ${nombre}">
         <p>${nombre}</p>
-        <p class="product__precio">$${precio.toFixed(2)}</p>
+        <p class="product__precio">$${parseFloat(precio).toFixed(2)}</p>
         <p>#${id}</p>`;
 
     const producto = document.createElement("div");
