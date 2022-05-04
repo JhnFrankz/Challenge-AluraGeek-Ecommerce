@@ -42,17 +42,17 @@
 
         <section class="login">
             <div class="container">
-                <form class="form form__login">
+                <form class="form form__login" data-form>
                     <h3 class="form__title">Iniciar Sesión</h3>
 
                     <div class="form__caja" id="grupo__correo">
-                        <input class="form__input" id="correo" name="correo" type="email" placeholder=" " autocomplete="email">
+                        <input class="form__input" id="correo" name="correo" type="email" placeholder=" " autocomplete="email" data-form-correo>
                         <label class="form__label" for="correo">Escriba su correo electrónico</label>
                         <p class="form__input-error">Este campo no debe estar vacío y debe contener una email válido.</p>
                     </div>
                     
                     <div class="form__caja" id="grupo__contrasenia">
-                        <input class="form__input" id="contrasenia" name="contrasenia" type="password" placeholder=" " autocomplete="current-password">
+                        <input class="form__input" id="contrasenia" name="contrasenia" type="password" placeholder=" " autocomplete="current-password" data-form-contrasenia>
                         <label class="form__label" for="contrasenia">Escriba su contraseña</label>
                         <p class="form__input-error">Este campo no debe estar vacío</p>
                     </div>
@@ -91,13 +91,13 @@
                         <h3 class="form__title">Hable con nosotros</h3>
     
                         <div class="form__caja" id="grupo__nombre">
-                            <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" " data-type="name">
+                            <input class="form__input" id="nombre" name="nombre" type="text" placeholder=" ">
                             <label class="form__label" for="nombre">Nombre</label>
                             <p class="form__input-error">Este campo no debe estar vacío y debe contener máximo 50 carácteres.</p>
                         </div>
                         
                         <div class="form__caja" id="grupo__mensaje">
-                            <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" " data-type="message"></textarea>
+                            <textarea class="form__input" name="mensaje" id="mensaje"  placeholder=" "></textarea>
                             <label class="form__label" for="nombre">Escribe tu mensaje</label>
                             <p class="form__input-error">Este campo no debe estar vacío y puede contener máximo 300 carácteres.</p>
                         </div>
@@ -122,6 +122,7 @@
 
     <script src="controllers/validacionContacto.js"></script>
     <script src="controllers/validacionLogin.js"></script>
+    <script type="module" src="controllers/login-controller.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,15 @@
 {
+  "usuario": [
+    {
+      "correo": "jhan@gmail.com",
+      "contrasenia": "123"
+    },
+    {
+      "correo": "frank@gmail.com",
+      "contrasenia": "456"
+    }
+  ],
+  
   "producto": [
     {
       "nombre": "Producto 1",

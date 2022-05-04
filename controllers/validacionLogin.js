@@ -6,7 +6,7 @@
 
 	const expresiones = {
 		correo: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-		contrasenia: /^[A-Za-zñÑ]\w{7,15}$/
+		contrasenia: /^[A-Za-zñÑ0-9]\w{1,15}$/
 	}
 
 	const campos = {
