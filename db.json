@@ -9,36 +9,35 @@
       "contrasenia": "456"
     }
   ],
-  
   "producto": [
     {
-      "nombre": "Producto 1",
-      "precio": "50",
-      "descripcion": "Este es el producto número 1",
+      "nombre": "aaaaaaaaaaa",
+      "precio": "34",
+      "descripcion": "aaaaaaaaaaaaa",
       "id": "1"
     },
     {
-      "nombre": "Producto 2",
-      "precio": "60",
-      "descripcion": "Este es el producto número 2",
+      "nombre": "jjjjjjjjjj",
+      "precio": "641",
+      "descripcion": "jjjjjjjjjj",
       "id": "2"
     },
     {
       "nombre": "Producto 3",
-      "precio": "56",
-      "descripcion": "Este es el producto número 3",
+      "precio": "11",
+      "descripcion": "3",
       "id": "3"
     },
     {
-      "nombre": "aaaaaaaaaa",
-      "precio": "12.22",
-      "descripcion": "aaaaaaaaaaaa",
+      "nombre": "wwwwwwww",
+      "precio": "983",
+      "descripcion": "wwwwwwwwwwww",
       "id": "ae90b57d-539c-400f-a7f0-02cbb306131c"
     },
     {
-      "nombre": "eeeeeeeeeeee",
-      "precio": "12.32",
-      "descripcion": "dddddddddddddddd",
+      "nombre": "wwwwwwwww",
+      "precio": "555555",
+      "descripcion": "wwwwwwwww",
       "id": "2032a24d-5ba3-4c47-975d-7481ea545111"
     },
     {
@@ -54,9 +53,9 @@
       "id": "0e9087db-f4b0-4e87-a8a6-95e944acba7f"
     },
     {
-      "nombre": "nnnnnnnnn",
-      "precio": "45.456",
-      "descripcion": "nnnnnnnnnnnnnn",
+      "nombre": "hola3",
+      "precio": "31",
+      "descripcion": "hola",
       "id": "53cf1cb7-bf48-4a48-b156-a74b3cbdf04a"
     }
   ]

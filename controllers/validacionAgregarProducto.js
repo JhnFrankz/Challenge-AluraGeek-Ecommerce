@@ -6,9 +6,9 @@
 	botonAgregarProducto.disabled = true;
 
 	const expresiones = {
-		nombre: /^[a-zA-ZÀ-ÿ\s]{5,50}$/,
+		nombre: /^[a-zA-ZÀ-ÿ0-9\s]{5,50}$/,
 		precio: /^[\d\.,]+$/,
-		descripcion: /^[a-zA-ZÀ-ÿ\s]{1,300}$/
+		descripcion: /^[a-zA-ZÀ-ÿ0-9\s]{1,300}$/
 	}
 
 	const campos = {
