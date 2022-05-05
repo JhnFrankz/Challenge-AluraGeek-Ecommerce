@@ -23,12 +23,6 @@
       "id": "2"
     },
     {
-      "nombre": "Producto 3",
-      "precio": "11",
-      "descripcion": "3",
-      "id": "3"
-    },
-    {
       "nombre": "wwwwwwww",
       "precio": "983",
       "descripcion": "wwwwwwwwwwww",
@@ -51,12 +45,6 @@
       "precio": "4.45",
       "descripcion": "fffffffffffffffff",
       "id": "0e9087db-f4b0-4e87-a8a6-95e944acba7f"
-    },
-    {
-      "nombre": "hola3",
-      "precio": "31",
-      "descripcion": "hola",
-      "id": "53cf1cb7-bf48-4a48-b156-a74b3cbdf04a"
     }
   ]
 }

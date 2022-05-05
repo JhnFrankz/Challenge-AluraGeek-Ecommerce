@@ -22,18 +22,15 @@ const crearNuevaLinea = (nombre, precio, descripcion, id) => {
 
     linea.innerHTML = contenido;
 
-    /*
+    
     const btn = linea.querySelector("button");
     btn.addEventListener("click", () => {
         const id = btn.id;
-        //ya con esto mandar toda la lógica a otra función, para eliminar
-        clientServices.eliminarCliente(id).then((respuesta) => {
+        productServices.eliminarProducto(id).then(respuesta => {
             console.log(respuesta);
-
         }).catch(error => console.log("Ocurrió un error"));
 
     });
-    */
 
     return linea;
 };

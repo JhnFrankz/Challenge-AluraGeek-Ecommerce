@@ -527,6 +527,7 @@ img {
     border: none;
     color: #e40404  ;
     padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
 .products-list .table__button-control {
@@ -534,4 +535,5 @@ img {
     justify-content: center;
     align-items: center;
     margin: 0;
+    gap: 1rem;
 }
