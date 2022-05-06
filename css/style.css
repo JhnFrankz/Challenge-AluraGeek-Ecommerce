@@ -471,17 +471,23 @@ button {
 
 @media (min-width: 768px) {
     .add-product .form__file {
-        display: flex;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 3rem 1fr;
     }
 
     .add-product .form__file__p {
-        display: block;
-        margin: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .add-product .form__btn-file {
-        display: block;
+        display: flex;
+        align-items: center;
+    }
+    
+    .add-product .form__btn-file a {
+        text-align: center;
     }
     /*
     .form__choose-file__text p {
