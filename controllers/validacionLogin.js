@@ -1,5 +1,5 @@
 {
-	const formulario = document.querySelector(".form__login");
+	//const formulario = document.querySelector(".form__login");
 	const inputs = document.querySelectorAll(".form__login .form__input");
 	const botonEnviarLogin = document.querySelector(".form__login button");
 	botonEnviarLogin.disabled = true;

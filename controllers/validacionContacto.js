@@ -1,20 +1,3 @@
-/*
-export const validate = (input) => {
-    const inputType = input.dataset.type;
-
-    console.log();
-    if (inputType.validity.valid) {
-        console.log("true");
-    } else {
-
-    }
-};
-
-const expressions = {
-    name: /^[a-zA-ZÀ-ÿ\s]{1,50}$/, // Letras y espacios,
-	message: /^[a-zA-ZÀ-ÿ\s]{1,300}$/
-};
-*/
 {
 	const formulario = document.querySelector(".form__about-us");
 	const inputs = document.querySelectorAll(".form__about-us .form__input");

@@ -11,7 +11,7 @@ formulario.addEventListener("submit", (e) => {
     loginServices.listaUsuarios().then((data) => {
         data.forEach(({correo, contrasenia}) => {
             if (correoIn == correo && contraseniaIn == contrasenia) {
-                window.location = "/Challenges/Front%20End/ChallengeSem7-8-Ecommerce/products-list.html";
+                window.location = "products-list.html";
             }
         });
     }).catch(error => console.log("Error: " + error));

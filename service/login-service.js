@@ -1,6 +1,6 @@
 
 const listaUsuarios = () => {
-    return fetch("http://localhost:3000/usuario").then((respuesta) => respuesta.json());
+    return fetch("https://ejemplo-json.herokuapp.com/usuario").then((respuesta) => respuesta.json());
 };
 
 export const loginServices = {

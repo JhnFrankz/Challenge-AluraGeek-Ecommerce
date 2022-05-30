@@ -1,11 +1,11 @@
 
 const listaProductos = () => {
-    return fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
+    return fetch("https://ejemplo-json.herokuapp.com/producto").then((respuesta) => respuesta.json());
 };
 
 /*          para add-products.html */
 const crearProducto = (nombre, precio, descripcion) => {
-    return fetch("http://localhost:3000/producto", {
+    return fetch("https://ejemplo-json.herokuapp.com/producto", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -21,11 +21,11 @@ const crearProducto = (nombre, precio, descripcion) => {
 
 /*      Para el CRUD        */
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`).then(respuesta => respuesta.json());
+    return fetch(`https://ejemplo-json.herokuapp.com/producto/${id}`).then(respuesta => respuesta.json());
 };
 
 const actualizarProducto = (nombre, precio, descripcion, id) => {
-    return fetch(`http://localhost:3000/producto/${id}`, {
+    return fetch(`https://ejemplo-json.herokuapp.com/producto/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
@@ -39,7 +39,7 @@ const actualizarProducto = (nombre, precio, descripcion, id) => {
 };
 
 const eliminarProducto = (id) => {
-    return fetch(`http://localhost:3000/producto/${id}`, {
+    return fetch(`https://ejemplo-json.herokuapp.com/producto/${id}`, {
         method: "DELETE"
     });
 };
