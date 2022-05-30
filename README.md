@@ -10,3 +10,6 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 - Un pie de página con un formulario de contacto y otras informaciónes relevantes.
 - Un formulário de iniciar sesión para autenticar a los usuarios que quieran acceder al menu administrador.
 - Menú de administrador para que puedan agregar, editar, buscar o eliminar productos de la tienda.
+
+![image](https://user-images.githubusercontent.com/49761835/170903186-25b74cce-0a71-4f26-926b-dad50d46b09a.png)
+
