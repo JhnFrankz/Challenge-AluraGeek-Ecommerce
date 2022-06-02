@@ -45,6 +45,15 @@
                     <h2 class="form__title">Agregar nuevo producto</h2>
 
                     <div class="form__caja form__file">
+                        <div class="form__file__action">
+                            <label for="image" class="form__file__title">Foto de publicación</label>
+                            
+                            <input type="file" name="image" id="image">
+                        </div>
+                        <div class="form__file__result" id="result__image">
+                            <img id="img__result" alt="">
+                        </div>
+                        <!--
                         <div class="form__choose-file">
                             <input class="form__input" name="imagen" type="file" placeholder=" " data-form-img>
                             <div class="form__choose-file__text">
@@ -58,6 +67,7 @@
                         <div class="form__btn-file">
                             <a class="btn">Buscar en dispositivo</a>
                         </div>
+                        -->
                     </div>
 
                     <div class="form__caja" id="grupo__nombre">
@@ -143,6 +153,7 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    <script src="controllers/index.js"></script>
     <script src="controllers/validacionAgregarProducto.js"></script>
     <script src="controllers/validacionContacto.js"></script>
     <script type="module" src="controllers/registro_controller.js"></script>

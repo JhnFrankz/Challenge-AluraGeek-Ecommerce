@@ -1,29 +1,24 @@
-/*
-const name = document.querySelector("[data-name]");
-const message = document.querySelector("[data-message]");
+const fileInput = document.getElementById("image");
+const dragZone = document.getElementById("result__image");
+const img = document.getElementById("img__result");
 
-const btnAboutUs = document.querySelector("")
-*/
+//al hacer click en el campo, que actue como un input file
+dragZone.addEventListener("click", () => fileInput.click()
+);
 
-/*
-    El formulario de contacto debe contener algunas validaciones como:
-
-    Campo de nombre: máximo 40 caracteres.
-    Campo de mensaje: máximo 120 caracteres.
-    Validación para que los campos no queden vacíos o en blanco.
-    Debe mostrar al usuario los mensajes de error en caso de que no se cumplan las validaciones.
-    Botón Enviar mensaje: envía el mensaje si el formulario está correctamente cumplimentado.
-*/
-
-/*
-import { validate } from "./validacionContacto.js";
-
-const inputs = document.querySelectorAll(".form__about-us .form__input");
-
-inputs.forEach(input => {
-    input.addEventListener("blur", (input) => {
-        validate(input.target);
-    });
+//al arrastar una imagen por el campo haga..
+dragZone.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    dragZone.classList.add("form__file__result--active");
 });
 
-*/
+//al quitar una imagen por el campo haga..
+dragZone.addEventListener("dragleave", (e) => {
+    e.preventDefault();
+    dragZone.classList.remove("form__file__result--active");
+});
+
+//Al sortar una imagen en el campo no abrir en una pestaña nueva
+dragZone.addEventListener("drop", (e) => {
+    e.preventDefault();
+});
