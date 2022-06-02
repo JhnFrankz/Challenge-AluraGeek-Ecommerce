@@ -14,7 +14,7 @@ const crearNuevaLinea = (nombre, precio, descripcion, id) => {
                 </li>
                 
                 <li>
-                    <button class="btn-eliminar" type="button" id="${id}"> Eliminar</button>
+                    <button class="btn-eliminar" type="button" onclick="window.location.href='products-list.html';" id="${id}">Eliminar</button>
                 </li>
             </ul>
         </td>
