@@ -173,6 +173,37 @@ button {
     font-size: 1.6rem;
 }
 
+/*Buttons for Edit and Delete*/
+.product__box {
+    position: relative;
+}
+
+.product__box__properties {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product__property {
+    background: rgb(144, 138, 138);
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.product__property a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__property a:hover {
+    background: #6e6e6e;
+    transition: all 1s;
+}
+
 .products-group .product__item:nth-child(5),
 .products-group .product__item:nth-child(6) {
     display: none;
