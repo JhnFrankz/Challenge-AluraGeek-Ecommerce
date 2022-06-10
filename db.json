@@ -1,6 +1,10 @@
 {
   "usuario": [
     {
+      "correo": "admin",
+      "contrasenia": "789"
+    },
+    {
       "correo": "jhan@gmail.com",
       "contrasenia": "123"
     },
@@ -12,108 +16,126 @@
   
   "producto": [
     {
+      "imagen": "https://i.ibb.co/cTTZMLy/product1.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "1"
     },
     {
+      "imagen": "https://i.ibb.co/ss47fcs/product2.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "2"
     },
     {
+      "imagen": "https://i.ibb.co/VY107ff/product3.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "3"
     },
     {
+      "imagen": "https://i.ibb.co/b3wVPzc/product4.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "4"
     },
     {
+      "imagen": "https://i.ibb.co/7CtNpBw/product5.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "5"
     },
     {
+      "imagen": "https://i.ibb.co/wJdW60v/product6.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "6"
     },
     {
+      "imagen": "https://i.ibb.co/2FJ6SK1/product7.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "7"
     },
     {
+      "imagen": "https://i.ibb.co/gwz4rZ4/product8.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "8"
     },
     {
+      "imagen": "https://i.ibb.co/Fz6KZ7m/product9.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "9"
     },
     {
+      "imagen": "https://i.ibb.co/TqzknGP/product10.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "10"
     },
     {
+      "imagen": "https://i.ibb.co/X84fLh5/product11.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "11"
     },
     {
+      "imagen": "https://i.ibb.co/4gMzcJJ/product12.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "12"
     },
     {
+      "imagen": "https://i.ibb.co/CQq3Jtq/product13.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "13"
     },
     {
+      "imagen": "https://i.ibb.co/dbppfzX/product14.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "14"
     },
     {
+      "imagen": "https://i.ibb.co/Chps2TW/product15.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "15"
     },
     {
+      "imagen": "https://i.ibb.co/711Nm0k/product16.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "16"
     },
     {
+      "imagen": "https://i.ibb.co/N3Ms1GR/product17.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",
       "id": "17"
     },
     {
+      "imagen": "https://i.ibb.co/fH8CCw4/product18.png",
       "nombre": "Producto XYZ",
       "precio": "60",
       "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam facilis accusamus ducimus placeat quod odit, necessitatibus quas explicabo harum iure neque ad amet nesciunt, laboriosam sunt deserunt minima pariatur culpa.",

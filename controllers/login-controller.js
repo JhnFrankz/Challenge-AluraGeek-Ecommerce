@@ -11,7 +11,7 @@ formulario.addEventListener("submit", (e) => {
     loginServices.listaUsuarios().then((data) => {
         data.forEach(({correo, contrasenia}) => {
             if (correoIn == correo && contraseniaIn == contrasenia) {
-                window.location = "products-list.html";
+                window.location = "all-products.html";
             }
         });
     }).catch(error => console.log("Error: " + error));

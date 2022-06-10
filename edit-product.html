@@ -45,6 +45,13 @@
                     <h2 class="form__title">Editar producto</h2>
 
                     <div class="form__caja form__file">
+                        <div class="form__file__action">
+                            <input type="file" name="image" id="image">
+                        </div>
+                        <div class="form__file__result" id="result__image">
+                            <img id="img__result" alt="">
+                        </div>
+                        <!--
                         <div class="form__choose-file">
                             <input class="form__input" name="imagen" type="file" placeholder=" " data-form-img>
                             <div class="form__choose-file__text">
@@ -57,7 +64,7 @@
 
                         <div class="form__btn-file">
                             <a class="btn">Busque en su dispositivo</a>
-                        </div>
+                        </div>-->
                     </div>
 
                     <div class="form__caja" id="grupo__nombre">
@@ -142,6 +149,7 @@
         </div>
     </footer>
 
+    <script src="controllers/index.js"></script>
     <script src="controllers/validacionAgregarProducto.js"></script>
     <script src="controllers/validacionContacto.js"></script>
     <script type="module" src="controllers/update-controller.js"></script>
