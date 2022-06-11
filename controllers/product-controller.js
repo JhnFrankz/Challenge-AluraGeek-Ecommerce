@@ -1,5 +1,7 @@
 import { productServices } from "../service/product-service.js";
 
+//Por hacer, mostrar imagenes del json en la pag principal
+
 /*const crearNuevoProducto = (nombre, precio, id) => {
     const contenido = `
         <a href="product.html?id=${id}">
@@ -16,7 +18,7 @@ import { productServices } from "../service/product-service.js";
     return producto;
 };*/
 
-const crearNuevoProducto = (nombre, precio, id) => {
+const crearNuevoProducto = (imagen, nombre, precio, id) => {
     const contenido = `
     <div class="product__box">
         <div class="product__box__properties">
@@ -27,7 +29,7 @@ const crearNuevoProducto = (nombre, precio, id) => {
                 <a class="btn-delete" href="all-products.html" id="${id}"><i class="fa-solid fa-trash"></i></a>
             </div>
         </div>
-        <img src="img/product${id}.png" alt="Imagen producto ${id}">
+        <img src="${imagen}" alt="Imagen producto ${id}">
     </div>
     <p>${nombre}</p>
     <p class="product__precio">$${parseFloat(precio).toFixed(2)}</p>
@@ -52,8 +54,8 @@ const crearNuevoProducto = (nombre, precio, id) => {
 const listaProductos = document.querySelector("[data-products-list]");
 
 productServices.listaProductos().then((data) => {
-    data.forEach(({nombre, precio, id}) => {
-        const nuevoProducto = crearNuevoProducto(nombre, precio, id);
+    data.forEach(({imagen, nombre, precio, id}) => {
+        const nuevoProducto = crearNuevoProducto(imagen, nombre, precio, id);
         listaProductos.appendChild(nuevoProducto);
     });
 }).catch(error => console.log("Hubo un error al crear un nuevo Producto: \n", error));

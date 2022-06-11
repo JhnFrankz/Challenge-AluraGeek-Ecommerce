@@ -185,7 +185,7 @@ button {
 }
 
 .product__property {
-    background: rgb(144, 138, 138);
+    background: rgba(144, 138, 138, 0.3);
     width: 3.5rem;
     height: 3.5rem;
 }
