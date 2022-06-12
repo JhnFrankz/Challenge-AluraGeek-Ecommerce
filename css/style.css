@@ -530,10 +530,11 @@ button {
 
 .form__file__result img {
     position: relative;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	z-index: 500;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 500;
+    background-size: auto;
 }
 .form__file__result--active {
 	background-color: rgba(82, 81, 79, 0.314);
