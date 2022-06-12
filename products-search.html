@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/3943885706.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Producto</title>
+    <title>AluraGeek</title>
 </head>
 
 <body>
@@ -39,61 +39,11 @@
     </header>
     
     <main class="main">
-        <section class="product__hero">
-            <div class="container">
-                <div class="product-information" data-producto></div>
-            </div>
-        </section>
-
         <section class="products">
             <div class="container">
                 <div class="products-group">
-                    <div class="product__info">
-                        <h3 class="product__title">Productos similares</h3>
-                    </div>
+                    <div class="product__list" data-products-found>
 
-                    <div class="product__list">
-                        <div class="product__item">
-                            <img src="img/product7.png" alt="Imagen producto 7">
-                            <p>Producto XYZ</p>
-                            <p class="product__precio">$60,00</p>
-                            <a href="#">Ver producto</a>
-                        </div>
-
-                        <div class="product__item">
-                            <img src="img/product2.png" alt="Imagen producto 2">
-                            <p>Producto XYZ</p>
-                            <p class="product__precio">$60,00</p>
-                            <a href="#">Ver producto</a>
-                        </div>
-
-                        <div class="product__item">
-                            <img src="img/product3.png" alt="Imagen producto 3">
-                            <p>Producto XYZ</p>
-                            <p class="product__precio">$60,00</p>
-                            <a href="#">Ver producto</a>
-                        </div>
-
-                        <div class="product__item">
-                            <img src="img/product4.png" alt="Imagen producto 4">
-                            <p>Producto XYZ</p>
-                            <p class="product__precio">$60,00</p>
-                            <a href="#">Ver producto</a>
-                        </div>
-
-                        <div class="product__item">
-                            <img src="img/product5.png" alt="Imagen producto 5">
-                            <p>Producto XYZ</p>
-                            <p class="product__precio">$60,00</p>
-                            <a href="#">Ver producto</a>
-                        </div>
-
-                        <div class="product__item">
-                            <img src="img/product6.png" alt="Imagen producto 6">
-                            <p>Producto XYZ</p>
-                            <p class="product__precio">$60,00</p>
-                            <a href="#">Ver producto</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -155,9 +105,11 @@
         </div>
     </footer>
 
+    <!--<script type="module" src="controllers/index.js"></script>-->
     <script src="controllers/validacionContacto.js"></script>
-    <script type="module" src="controllers/product-information-controller.js"></script>
     <script type="module" src="controllers/busqueda-controller.js"></script>
+    <script type="module" src="controllers/search-results-controller.js"></script>
+    <!--<script src="controllers/buscarProducto.js"></script>-->
 </body>
 
 </html>

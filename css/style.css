@@ -77,6 +77,12 @@ button {
     display: none;
 }
 
+.header__search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (min-width: 768px) {
     .header__item:nth-child(2) {
         order: 4;
@@ -88,7 +94,7 @@ button {
         background: #F5F5F5;
         height: 4rem;
         border-radius: 1rem;
-        padding: .5rem 1rem;
+        padding: .5rem .5rem;
     }
 
     .header__search input {
@@ -102,8 +108,16 @@ button {
         outline: none;
     }
 
-    .header__search a {
+    .header__search button {
         color: #464646;
+        height: 100%;
+        width: 2.8rem;
+        cursor: pointer;
+    }
+
+    .header__search button:hover {
+        background-color: rgba(132, 131, 129, 0.314);
+        transition: all 1s;
     }
 }
 
@@ -643,3 +657,11 @@ button {
     margin: 0;
     gap: 1rem;
 }
+
+
+/*      Funcionamiento busqueda     */
+
+
+
+
+
